@@ -19,7 +19,7 @@ iex(1)> inicio = 10
 iex(2)> final = 20
 20
 iex(3)> Enum.sum(inicio..final)
-<b>165</b>
+**165**
 ~~~
 
 ~~~
