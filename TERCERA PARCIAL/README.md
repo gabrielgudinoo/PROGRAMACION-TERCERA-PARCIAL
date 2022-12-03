@@ -22,7 +22,7 @@ iex(3)> Enum.sum(inicio..final)
 165
 iex(4)> asignacion = Enum.sum(inicio..final)
 165
-iex(4)> asignacion
+iex(5)> asignacion
 165
 ~~~
 
