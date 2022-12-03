@@ -27,12 +27,30 @@ iex(5)> asignacion
 ~~~
 
 ~~~
-void main()
-{
-    String aombre = "Gabo";
-    String apellido;
-    print("nombre");
-    apellido = "Gudiño";
-    print(nombre + " " + apellido);
-}
+iex(13)> max(3,10)
+  10
+iex(14)> rem(3,10)
+  3
+iex(15)> min(10,2)
+  2
+iex(16)> minimo = min(10,2)
+  2
+iex(17)> minimo * 2
+  4
+iex(18)> is_float(3.1416)
+  true
+iex(19)> is_integer(3)
+  true
+iex(20)> is_integer(3.5)
+  false
+iex(21)> is_integer(:azul)
+  false
+iex(22)> is_atom(:azul)
+  true
+iex(23)> is_list([1,2,3])
+  true
+iex(24)> is_tuple({1,2,3})
+  true
+iex(25)> numero = 123_43_13_432512
+  1234313432512
 ~~~
