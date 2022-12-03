@@ -37,6 +37,9 @@ iex(16)> minimo = min(10,2)
   2
 iex(17)> minimo * 2
   4
+~~~
+
+~~~
 iex(18)> is_float(3.1416)
   true
 iex(19)> is_integer(3)
