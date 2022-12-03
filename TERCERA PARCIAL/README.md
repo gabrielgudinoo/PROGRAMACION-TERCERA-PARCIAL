@@ -1,8 +1,8 @@
-# UNIDAD II: SEGUNDA PARCIAL "PROGRAMACIÓN ORIENTADA A OBJETOS". 
+# UNIDAD III: TERCERA PARCIAL "PROGRAMACIÓN FUNCIONAL". 
 ## WALTER ALEXANDER.
 ### ESTUDIANTE: GUDIÑO MÉNDEZ GABRIEL ALEJANDRO.
 #### 1. PRINCIPIOS DE PROGRAMACIÓN CON DART.
-En el comienzo de esta segunda parcial el maestro Walter nos dió a conocer un nuevo lenguaje de programación con un paradigma orientado a objetos, en donde se nos enseñó la sintaxis correcta utilizado en este lenguaje. Desde las más básicas hasta las más avanzadas, los temas o procesos desarrollados que aprendimos fueron las siguientes:
+En el comienzo de esta tercera parcial el maestro Walter nos dió a conocer un nuevo lenguaje de programación con un paradigma funcional, en donde se nos demostró los conceptos básicos y necesarios para empezar a programar en Erlang y en Elixir. Como bien sabemos, Erlan es un lenguaje de programación funcional de alto nive que se le puede nombrar también que está dentro del paradigma de programación declarativa, en el cual está diseñado para escribir aplicaciones concurrentes y distribuidas de funcionamiento ininterrumpido. Los temas o procesos desarrollados que aprendimos fueron las siguientes:
 
   - Tipos de datos (String, int, double, dynamic, boolean, num).
   - Declaración de variables de manera explícita.
