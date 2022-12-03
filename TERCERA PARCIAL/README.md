@@ -20,6 +20,8 @@ iex(2)> final = 20
 20
 iex(3)> Enum.sum(inicio..final)
 165
+iex(8)> asignacion = Enum.sum(inicio..final)
+165
 ~~~
 
 ~~~
