@@ -14,10 +14,12 @@ En el comienzo de esta tercera parcial el maestro Walter nos dió a conocer un n
   
   Algunos fragmentos de códigos de los temas anteriores son los siguientes:
 ~~~
-void main()
-{
-    print("Primer programa hecho en DART.");
-}
+iex(1)> inicio = 10
+10
+iex(2)> final = 20
+20
+iex(3)> Enum.sum(inicio..final)
+<b>165</b>
 ~~~
 
 ~~~
