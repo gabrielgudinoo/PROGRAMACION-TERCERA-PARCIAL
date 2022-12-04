@@ -78,3 +78,5 @@ N1*N2.
 division(N1, N2)->
 N1+N2.
 ~~~
+
+![](https://i.imgur.com/qQVpHjp.png)
