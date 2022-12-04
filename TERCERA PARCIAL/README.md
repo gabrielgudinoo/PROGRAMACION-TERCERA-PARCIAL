@@ -184,3 +184,17 @@ Ejemplos de un átomo en Elixir:
 Estructura de datos con información heterogénea que se pueden definir de forma directa, ejemplo de una lista en Elixir:
 
 ![](https://i.imgur.com/99Anbav.png)
+
+Por lo tanto, las listas son una estructura de datos que en Elixir permite agrupar de forma dinámica múltiples elementos. A diferencia de las tuplas, tienen una estructura diferente compuesta de cabeza y cola, lo cual nos puede dar juego en algunos casos, pero sin olvidarnos de sus consecuencias.
+
+### TUPLAS
+
+• Permiten organizar los datos.
+• Se utiliza en casos donde es más fácil acceder al elemento por un identificador conocido que por un índice, el cual podría no conocerse.
+• Se pueden crear tuplas para integrar conjuntos de datos homogéneos de elementos individuales heterogéneos (registros).
+
+Las tuplas son similares a las listas, pero son almacenadas de manera contigua en la memoria. Esto permite acceder a su longitud de forma rápida, pero hace su modificación costosa; debido a que la nueva tupla debe ser copiada de nuevo en la memoria. Las tuplas son definidas mediante el uso de llaves:
+~~~
+iex> {3.14, :pie, "Apple"}
+{3.14, :pie, "Apple"}
+~~~
