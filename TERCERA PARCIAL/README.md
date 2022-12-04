@@ -88,6 +88,6 @@ calculadora:multiplicacion(2,2)
 calculadora:division(8,2)
 ~~~
 
-#### SALIDA
+#### 1.4 SALIDA
 
 ![](https://i.imgur.com/qQVpHjp.png)
