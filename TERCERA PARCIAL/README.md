@@ -189,12 +189,20 @@ Por lo tanto, las listas son una estructura de datos que en Elixir permite agrup
 
 ### TUPLAS
 
-• Permiten organizar los datos.
-• Se utiliza en casos donde es más fácil acceder al elemento por un identificador conocido que por un índice, el cual podría no conocerse.
-• Se pueden crear tuplas para integrar conjuntos de datos homogéneos de elementos individuales heterogéneos (registros).
+  - Permiten organizar los datos.
+  - Se utiliza en casos donde es más fácil acceder al elemento por un identificador conocido que por un índice, el cual podría no conocerse.
+  - Se pueden crear tuplas para integrar conjuntos de datos homogéneos de elementos individuales heterogéneos (registros).
 
 Las tuplas son similares a las listas, pero son almacenadas de manera contigua en la memoria. Esto permite acceder a su longitud de forma rápida, pero hace su modificación costosa; debido a que la nueva tupla debe ser copiada de nuevo en la memoria. Las tuplas son definidas mediante el uso de llaves:
 ~~~
 iex> {3.14, :pie, "Apple"}
 {3.14, :pie, "Apple"}
+~~~
+
+Es común que utilicemos las tuplas como un mecanismo que retorna información adicional de funciones; la utilidad de esto será más evidente cuando aprendamos sobre coincidencia de patrones:
+~~~
+iex> File.read("path/to/existing/file")
+{:ok, "... contents ..."}
+iex> File.read("path/to/unknown/file")
+{:error, :enoent}
 ~~~
