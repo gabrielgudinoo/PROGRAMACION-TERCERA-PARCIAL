@@ -166,7 +166,7 @@ iex(62)> MayorDeEdad.mayor2(18)
 
 ![](https://i.imgur.com/jRqagwt.png)
 
-## TEMAS IMPORTANTES VISTO EN CLASES:
+## TEMAS IMPORTANTES VISTOS EN CLASES:
 
 ### ATOMOS
 Un átomo es un tipo de datos primitivo en el que el valor de la expresión se corresponde con su nombre. Lo siguiente son las características de un átomo:
