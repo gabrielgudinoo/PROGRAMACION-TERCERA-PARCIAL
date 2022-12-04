@@ -79,4 +79,13 @@ division(N1, N2)->
 N1+N2.
 ~~~
 
+### 1.3 IMPLEMENTACIÓN
+
+~~~
+calculadora:suma(2,2)
+calculadora:resta(10,8)
+calculadora:multiplicacion(2,2)
+calculadora:division(8,2)
+~~~
+
 ![](https://i.imgur.com/qQVpHjp.png)
