@@ -219,3 +219,29 @@ iex> map[:foo]
 iex> map["hello"]
 :world
 ~~~
+
+A partir de Elixir 1.2, se pueden usar variables como claves:
+
+~~~
+iex> key = "hello"
+"hello"
+iex> %{key => "world"}
+%{"hello" => "world"}
+~~~
+
+Si un elemento duplicado es agregado al mapa, este reemplazará el valor anterior:
+
+~~~
+iex> %{:foo => "bar", :foo => "hello world"}
+%{foo: "hello world"}
+~~~
+
+Como podemos ver en la salida anterior, hay una sintaxis especial para los mapas que sólo contienen átomos como claves:
+
+~~~
+iex> %{foo: "bar", hello: "world"}
+iex> %{foo: "bar", hello: "world"}
+iex> %{foo: "bar", hello: "world"} == %{:foo => "bar", :hello => "world"}
+true
+~~~
+
