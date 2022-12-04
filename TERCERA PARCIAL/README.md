@@ -245,4 +245,4 @@ iex> %{foo: "bar", hello: "world"} == %{:foo => "bar", :hello => "world"}
 true
 ~~~
 
-Esos fueron los temas abordados en Elixir y una parte de Erlang en la Unidad III de nuestra clase de Programación funcional, nuestra materia es impartida por el docente Walter Alexander Mata Lopez y actualmente estamos cursando nuestra carrera profesional de Ingenería en Computación Inteligente ICI, por el presente alumno Gabriel Alejandro Gudiño Méndez del grupo 2do "D".
+Esos fueron los temas abordados en Elixir y una parte de Erlang en la Unidad III de nuestra clase de Programación funcional, nuestra materia es impartida por el docente Walter Alexander Mata Lopez y actualmente estamos cursando nuestra carrera profesional de Ingenería en Computación Inteligente ICI, por el presente alumno Gabriel Alejandro Gudiño Méndez del grupo 3ro "D".
