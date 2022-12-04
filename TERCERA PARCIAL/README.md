@@ -206,3 +206,16 @@ iex> File.read("path/to/existing/file")
 iex> File.read("path/to/unknown/file")
 {:error, :enoent}
 ~~~
+
+### MAPAS
+
+En Elixir, los mapas son el tipo de datos utilizado por excelencia para almacenar pares de clave/valor. A diferencia de las listas de palabras clave, los mapas permiten claves de cualquier tipo y no mantienen un orden. Puedes definir un mapa con la sintaxis %{}:
+
+~~~
+iex> map = %{:foo => "bar", "hello" => :world}
+%{:foo => "bar", "hello" => :world}
+iex> map[:foo]
+"bar"
+iex> map["hello"]
+:world
+~~~
