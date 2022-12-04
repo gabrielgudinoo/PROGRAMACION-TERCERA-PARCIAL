@@ -63,9 +63,9 @@ iex(25)> numero = 123_43_13_432512
 
 ## EJERCICIOS DE CLASE CON ERLANG.
 ### EJERCICIO 1. Realizar una calculadora en Erlang.
-### 1.1 DESCRIPCIÓN DEL EJERCICIO: 
+#### 1.1 DESCRIPCIÓN DEL EJERCICIO: 
 Se busca realizar una calculadora simple, con funciones adecuadas para realizar la operación de suma, resta, multiplicación y división.
-### 1.2 CÓDIGO DEL EJERCICIO
+#### 1.2 CÓDIGO DEL EJERCICIO
 ~~~
 -module(calculadora).
 -export([suma/2, resta/2, multiplicacion/2, division/2]).
@@ -79,7 +79,7 @@ division(N1, N2)->
 N1+N2.
 ~~~
 
-### 1.3 IMPLEMENTACIÓN
+#### 1.3 IMPLEMENTACIÓN
 
 ~~~
 calculadora:suma(2,2)
@@ -87,5 +87,7 @@ calculadora:resta(10,8)
 calculadora:multiplicacion(2,2)
 calculadora:division(8,2)
 ~~~
+
+#### SALIDA
 
 ![](https://i.imgur.com/qQVpHjp.png)
