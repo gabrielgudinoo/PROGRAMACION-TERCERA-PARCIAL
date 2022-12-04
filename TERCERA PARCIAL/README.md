@@ -181,8 +181,6 @@ Ejemplos de un átomo en Elixir:
 ![](https://i.imgur.com/C4eemot.png)
 
 ### LISTAS
-Estructura de datos con información heterogénea que se pueden definir de forma directa, ejemplo:
-
-Ejemplos de un átomo en Elixir:
+Estructura de datos con información heterogénea que se pueden definir de forma directa, ejemplo de una lista en Elixir:
 
 ![](https://i.imgur.com/99Anbav.png)
