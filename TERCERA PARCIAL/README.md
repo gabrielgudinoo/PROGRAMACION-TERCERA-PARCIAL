@@ -62,7 +62,7 @@ iex(25)> numero = 123_43_13_432512
 ~~~
 
 ## EJERCICIOS DE CLASE CON ERLANG.
-### EJERCICIO 1. "Realizar una calculadora en Erlang".
+### EJERCICIO 1. Realizar una calculadora en Erlang.
 ### 1.1 DESCRIPCIÓN DEL EJERCICIO: 
 Se busca realizar una calculadora simple, con funciones adecuadas para realizar la operación de suma, resta, multiplicación y división.
 ### 1.2 CÓDIGO DEL EJERCICIO
