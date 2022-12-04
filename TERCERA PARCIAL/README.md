@@ -165,3 +165,18 @@ iex(62)> MayorDeEdad.mayor2(18)
 #### 3.4 SALIDA
 
 ![](https://i.imgur.com/jRqagwt.png)
+
+## TEMAS IMPORTANTES VISTO EN CLASES:
+
+###ATOMOS
+Un átomo es un tipo de datos primitivo en el que el valor de la expresión se corresponde con su nombre. Lo siguiente son las características de un átomo:
+  - Es una literal.
+  - Constante con nombre.
+  - Pueden inicir con una letra minúscula.
+  - Puede llevar el caracter _ ó @.
+  - Puede estar encerrada entre comillas simples (’) si inicia con una letra mayúscula o tienen otros caracteres alfanuméricos distintos a los mencionados
+
+Ejemplos de un átomo en Elixir:
+
+![](https://i.imgur.com/C4eemot.png)
+
