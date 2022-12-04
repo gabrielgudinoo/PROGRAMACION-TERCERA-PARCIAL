@@ -91,3 +91,48 @@ calculadora:division(8,2)
 #### 1.4 SALIDA
 
 ![](https://i.imgur.com/qQVpHjp.png)
+
+### EJERCICIO 2. Realizar una calculadora en Elixir que dada una lista de N núemros, sumarlos y al resultado elevarlo a la potencia cuadrada.
+#### 2.1 DESCRIPCIÓN DEL EJERCICIO: 
+Realizar la suma de los números ingresados, y posteriormente realizar la elevación a la potencia cuadrada del resultado.
+#### 2.2 CÓDIGO DEL EJERCICIO
+~~~
+sum = 0
+lista = [1,2,3,4,5]
+lista = tl(lista)
+IO.inspect(lista)
+[num|lista] = lista
+
+IO.inspect(num)
+IO.inspect(lista)
+sum = sum + num
+IO.inspect(num)
+
+[num|lista] = lista
+IO.inspect(num)
+IO.inspect(lista)
+sum = sum + num
+IO.inspect(sum)
+
+[num|lista] = lista
+IO.inspect(num)
+IO.inspect(lista)
+sum = sum + num
+IO.inspect(sum)
+
+[num|lista] = lista
+IO.inspect(num)
+IO.inspect(lista)
+sum = sum + num
+IO.inspect(sum)
+~~~
+
+#### 2.3 IMPLEMENTACIÓN
+
+~~~
+IO.puts("El resultado elevado a la potencia cuadrada de la suma de los numeros es: #{sum*sum}")
+~~~
+
+#### 2.4 SALIDA
+
+![]([https://i.imgur.com/qQVpHjp.png](https://i.imgur.com/Dabuhbf.png))
