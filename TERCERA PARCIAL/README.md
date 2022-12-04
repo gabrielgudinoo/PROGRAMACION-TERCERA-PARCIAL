@@ -139,45 +139,29 @@ IO.puts("El resultado elevado a la potencia cuadrada de la suma de los numeros e
 
 ### EJERCICIO 3. Usando la sentencia "unless" en Elixir, calcular si es menor o mayor de edad.
 #### 3.1 DESCRIPCIÓN DEL EJERCICIO: 
-Ingrensando la edad, el programa deberá indicarnos mediante la sentencia "unless" si la edad ingresada corresponda a una persona mayor o menor. 
-#### 2.2 CÓDIGO DEL EJERCICIO
+Ingrensando un valor, el programa deberá indicarnos mediante la sentencia "unless" si el valor ingresada que indica la edad corresponde a una persona mayor o menor de edad. 
+
+#### 3.2 CÓDIGO DEL EJERCICIO
 ~~~
-sum = 0
-lista = [1,2,3,4,5]
-lista = tl(lista)
-IO.inspect(lista)
-[num|lista] = lista
-
-IO.inspect(num)
-IO.inspect(lista)
-sum = sum + num
-IO.inspect(num)
-
-[num|lista] = lista
-IO.inspect(num)
-IO.inspect(lista)
-sum = sum + num
-IO.inspect(sum)
-
-[num|lista] = lista
-IO.inspect(num)
-IO.inspect(lista)
-sum = sum + num
-IO.inspect(sum)
-
-[num|lista] = lista
-IO.inspect(num)
-IO.inspect(lista)
-sum = sum + num
-IO.inspect(sum)
+defmodule MayorDeEdad do
+  def mayor1(edad) do
+    unless edad >= 18 do
+      "La edad ingresada, indica que es menor de edad"
+    end
+  end
+end
 ~~~
 
-#### 2.3 IMPLEMENTACIÓN
+#### 3.3 IMPLEMENTACIÓN
 
 ~~~
-IO.puts("El resultado elevado a la potencia cuadrada de la suma de los numeros es: #{sum * sum}")
+iex> c("main.ex")
+iex> MayorDeEdad.mayor1(16)
+iex> MayorDeEdad.mayor2(16)
+iex(61)> MayorDeEdad.mayor1(18)
+iex(62)> MayorDeEdad.mayor2(18)
 ~~~
 
-#### 2.4 SALIDA
+#### 3.4 SALIDA
 
-![](https://i.imgur.com/Dabuhbf.png)
+![](https://i.imgur.com/jRqagwt.png)
