@@ -130,9 +130,9 @@ IO.inspect(sum)
 #### 2.3 IMPLEMENTACIÓN
 
 ~~~
-IO.puts("El resultado elevado a la potencia cuadrada de la suma de los numeros es: #{sum*sum}")
+IO.puts("El resultado elevado a la potencia cuadrada de la suma de los numeros es: #{sum * sum}")
 ~~~
 
 #### 2.4 SALIDA
 
-![]([https://i.imgur.com/qQVpHjp.png](https://i.imgur.com/Dabuhbf.png))
+![](https://i.imgur.com/Dabuhbf.png)
